@@ -507,8 +507,8 @@ public class AltoFrame extends JFrame {
                 GridConstraints.SIZEPOLICY_FIXED,
                 GridConstraints.SIZEPOLICY_FIXED, null, null, null, 1, false));
         tf_prefix = new JTextField();
-        tf_prefix.setEditable(false);
-        tf_prefix.setEnabled(false);
+        tf_prefix.setEditable(true);
+        tf_prefix.setEnabled(true);
         tf_prefix.setText("custom");
         mainPanel.add(tf_prefix, new GridConstraints(4, 0, 3, 2,
                 GridConstraints.ANCHOR_WEST, GridConstraints.FILL_HORIZONTAL,
